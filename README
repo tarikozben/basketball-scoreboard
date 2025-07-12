@@ -1,0 +1,80 @@
+[] Remove unused classes from HTML file
+[] Remove unnecessary properties in CSS classes
+[] Change the design of your buttons for increased readability
+
+Challenges
+[] Rewrite scoring function using arguments (credit to Prince)
+[] Write a function that will show who's leading the game
+    - Tips:
+        * Use conditionals: I left the barebone structure of the function in the JS file
+        * Use 
+            YOURELEMENT.classList.remove("leader");
+            YOURELEMENT.classList.add("leader");
+         to add/remove the class .leader (provided in the CSS file; it's just a simple background change) to an element. I'm not telling you which element that is, but you will not have to create a new one as you have used these constant somewhere else in your code. You do not have to touch the HTML file, nor the CSS for this function to work.
+        * After creating the function, you will have to call it in some palces in your JS file. But where?
+        * If you're stuck, I've pasted the whole function down below. DOn't peek unless you really have to! :D
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        // Challenge Section
+// Conditional .leader CSS effct //
+function scoreLeaderEffect() {
+    if (scoreHome > scoreAway) {
+        awayScore.classList.remove("leader");
+        homeScore.classList.add("leader");
+        } else if (scoreAway > scoreHome) {
+        awayScore.classList.add("leader");
+        homeScore.classList.remove("leader");
+    } else {
+homeScore.classList.remove("leader");
+        awayScore.classList.remove("leader");
+    }
+}
