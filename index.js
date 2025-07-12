@@ -40,11 +40,3 @@ function resetScore(){
     scoreAway = 0
 }
 
-// Challenge Section
-// Conditional .leader CSS effct //
-
-// function scoreLeaderEffect() {
-//     if 
-//     else if 
-//     else 
-// }
