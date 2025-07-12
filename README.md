@@ -58,18 +58,3 @@ Here we have project screenshot :
         
         
         
-        
-        // Challenge Section
-// Conditional .leader CSS effct //
-function scoreLeaderEffect() {
-    if (scoreHome > scoreAway) {
-        awayScore.classList.remove("leader");
-        homeScore.classList.add("leader");
-        } else if (scoreAway > scoreHome) {
-        awayScore.classList.add("leader");
-        homeScore.classList.remove("leader");
-    } else {
-homeScore.classList.remove("leader");
-        awayScore.classList.remove("leader");
-    }
-}
